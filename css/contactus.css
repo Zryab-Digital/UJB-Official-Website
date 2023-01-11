@@ -7,30 +7,25 @@ body {
     background-size: 100%;
 }
 
+.ujblogo img {
+    position: absolute;
+    max-width: 7%;
+    top: 30px;
+    left: 40px;
+}
+
 h1 {
     position: absolute;
-    font-size: 100px;
-    left: 35vh;
-    top: 30vh;
+    font-size: 50px;
+    left: 75vh;
+    top: 1vh;
 }
 
-.addtoserverbutton {
+p {
     position: absolute;
-    padding: 10px 10px;
-    background-color: cyan;
-    border-radius: 5px;
-    top: 60vh;
-    left: 85vh;
-}
-
-.addtoserverbutton a {
-    text-decoration: none;
-    color: black;
-    font-family: sans-serif;
-}
-
-.addtoserverbutton:hover {
-    background-color: white;
+    font-size: 30px;
+    top: 40vh;
+    left: 49vh;
 }
 
 .homebutton {
@@ -88,11 +83,4 @@ h1 {
 
 .termsofservicebutton:hover {
     background-color: wheat;
-}
-
-.ujblogo img {
-    position: absolute;
-    max-width: 7%;
-    top: 30px;
-    left: 40px;
 }

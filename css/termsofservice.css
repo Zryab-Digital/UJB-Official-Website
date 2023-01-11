@@ -9,28 +9,16 @@ body {
 
 h1 {
     position: absolute;
-    font-size: 100px;
-    left: 35vh;
-    top: 30vh;
+    font-size: 50px;
+    left: 60vh;
+    top: 1vh;
 }
 
-.addtoserverbutton {
+.ujblogo img {
     position: absolute;
-    padding: 10px 10px;
-    background-color: cyan;
-    border-radius: 5px;
-    top: 60vh;
-    left: 85vh;
-}
-
-.addtoserverbutton a {
-    text-decoration: none;
-    color: black;
-    font-family: sans-serif;
-}
-
-.addtoserverbutton:hover {
-    background-color: white;
+    max-width: 7%;
+    top: 30px;
+    left: 40px;
 }
 
 .homebutton {
@@ -90,9 +78,20 @@ h1 {
     background-color: wheat;
 }
 
-.ujblogo img {
+p {
     position: absolute;
-    max-width: 7%;
-    top: 30px;
-    left: 40px;
+    font-size: 20px;
+    text-align: left;
+    top: 20vh;
+    left: 1vh;
+    color: white;
+}
+
+.lastupdated p {
+    position: absolute;
+    font-size: 20px;
+    text-align: left;
+    top: 93vh;
+    left: 1vh;
+    color: white;
 }
